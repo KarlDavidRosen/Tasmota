@@ -1171,6 +1171,8 @@ void SettingsDefaultSet2(void) {
   flag3.use_underscore |= MQTT_INDEX_SEPARATOR;
   flag3.grouptopic_mode |= MQTT_GROUPTOPIC_FORMAT;
   flag4.only_json_message |= MQTT_ONLY_JSON_OUTPUT;
+  SettingsUpdateText(SET_KNX_TUNNEL_HOST, KNX_TUNNEL_HOST);
+  Settings->knx_tunnel_port = KNX_TUNNEL_PORT;
   SettingsUpdateText(SET_MQTT_HOST, MQTT_HOST);
   Settings->mqtt_port = MQTT_PORT;
   SettingsUpdateText(SET_MQTT_CLIENT, PSTR(MQTT_CLIENT_ID));

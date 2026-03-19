@@ -244,6 +244,8 @@
 // -- KNX -----------------------------------------
 #define KNX_ENABLED            false             // [Knx_Enabled] Enable KNX protocol
 #define KNX_ENHANCED           false             // [Knx_Enhanced] Enable KNX Enhanced Mode
+#define KNX_TUNNEL_HOST        ""
+#define KNX_TUNNEL_PORT        3671
 
 // -- mDNS ----------------------------------------
 #define MDNS_ENABLED           false             // [SetOption55] Use mDNS (false = Disable, true = Enable)
